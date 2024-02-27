@@ -1,11 +1,15 @@
 html,
 body{
+    overflow-x: hidden;
     margin: 0px;
     padding: 0px;
     font-family: "Lexend";
     font-size: 16px;
-    height: 100%;
 }
+
+* {
+    box-sizing: border-box;
+ }
 
 .header-gradient {
     position: absolute;
@@ -572,4 +576,424 @@ header > div{
 
 .specific-left{
     margin-bottom: 27px;
+}
+
+.review{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yellow-text{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(245, 158, 11, 1);
+}
+
+.review-header h1{
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 32px;
+    color: rgba(27, 28, 87, 1);
+}
+
+.review-header span{
+    margin-top: 8px;
+}
+
+.review-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-item{
+    /* height: 600px; */
+    width: 740px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-item > img{
+    z-index: -1;
+    border-radius: 8px;
+}
+
+.review-main{
+    box-sizing: border-box;
+
+    position: relative;
+    top: -144px;
+
+    height: 249px;
+    width: 612px;
+    border: none;
+    border-radius: 16px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 32px;
+}
+
+.review-main h1{
+    color: rgba(27, 28, 87, 1);
+    font-size: 20px;
+    font-weight: 600;
+
+    margin: 0px;
+}
+
+.review-main p{
+    margin: 0px;
+
+    color: rgba(98, 102, 135, 1);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.review-text{
+    height: 113px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-info-detailed{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.review-info-detailed > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.review-name{
+    font-size: 14px;
+    color: rgba(14, 23, 53, 1);
+}
+
+.review-occupation{
+    font-size: 14px;
+    color: rgba(136, 139, 151, 1);
+}
+
+.review-star{
+    display: flex;
+    align-items: center;
+
+    color: rgba(60, 69, 99, 1);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.review-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.review-list{
+    position: relative;
+    width: 161.94%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review-controls{
+    position: relative;
+    top: -112px;
+}
+
+.tips{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tips-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tips-header h2{
+    margin-top: 12px;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(27, 28, 87, 1);
+    text-align: center;
+}
+
+.tips-header span{
+    margin-top: 8px;
+}
+
+.tips-header button{
+    background-color: rgba(16, 185, 129, 1);
+    height: 46px;
+    width: 118px;
+    padding: 12px 16px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 32px;
+    border: none;
+}
+
+.tips-main{
+    margin-top: 40px;
+    width: 83.33%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tips-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 42px;
+}
+
+.tips-item{
+    display: flex;
+    justify-content: left;
+    gap: 32px;
+
+    width: 572px;
+}
+
+.tips-item-person{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 16px;
+
+    color: rgba(60, 69, 99, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tips-item-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tips-item-data > span{
+    color: rgba(27, 28, 87, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tips-item-time{
+    margin-top: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 12px;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(136, 139, 151, 1);
+}
+
+.tips-right{
+    width: 560px;
+}
+
+.tips-right h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+
+    color: rgba(27, 28, 87, 1);
+}
+
+.tips-right-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.tips-right-data > span{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(98, 102, 135, 1);
+}
+
+.tips-right > img{
+    margin-bottom: 24px;
+}
+
+.subscribe-container{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe{
+    min-width: 898px;
+    width: 83.33%;
+    height: 312px;
+    background-image: url("images/subscribe-gradient.png");
+    background-size: 100% 100%;
+    resize: both;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subscribe-left-img{
+    height: 194px;
+}
+
+.subscribe-right-img{
+    height: 208px;
+}
+
+.subscribe-main > h1{
+    margin: 0px;
+    margin-bottom: 32px;
+
+    color: rgba(27, 28, 87, 1);
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.subscribe-search{
+    background-color: rgba(255, 255, 255, 1);
+    width: 496px;
+    height: 54px;
+    border: none;
+    border-radius: 32px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe-search > div{
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    align-items: center;
+}
+
+.subscribe-search-mail-icon{
+    margin-left: 24px;
+}
+
+.subscribe-search-input{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: rgba(136, 139, 151, 1);
+    font-family: "Lexend";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.subscribe-search > button{
+    background-color: rgba(16, 185, 129, 1);
+    height: 46px;
+    width: 129px;
+    border: none;
+    border-radius: 32px;
+
+    color: rgba(255, 255, 255, 1);
+    font-family: "Lexend";
+    font-size: 14px;
+    font-weight: 600;
+    
+    margin: 4px;
+}
+
+.footer{
+    margin-top: 120px;
+
+    margin-left: 8.33%;
+    width: 83.33%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left{
+    width: 320px;
+}
+
+.footer-left *{
+    display: block;
+}
+
+.footer-left > span{
+    margin-top: 16px;
+    margin-bottom: 24px;
+
+    color: rgba(98, 102, 135, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.footer-column > h1{
+    display: block;
+    color: rgba(14, 23, 53, 1);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+    margin-bottom: 6px;
+}
+
+.footer-column > span{
+    display: block;
+    margin-top: 16px;
+    color: rgba(136, 139, 151, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-right{
+    width: 617px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.specific-gradient{
+    position: absolute;
+    z-index: -1;
+    top: 1452px;
+    left: 72.22%;
+}
+
+.tips-gradient{
+    position: absolute;
+    z-index: -1;
+    top: 2930px;
+    left: 0px;
+}
+
+.this-is-kostyl{
+    background-image: url("images/footer-gradient.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
 }
